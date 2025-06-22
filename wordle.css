@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("wordledesign.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 600px;
+  max-width: 90vw;
+  max-height: 350px; 
+  overflow-y: auto;   
+  box-sizing: border-box;
+  text-align: center;
+}
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #b388ff;
+  border-radius: 6px;
+}
+.heading {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      color: #4b0082;
+      margin-top: 20px;
+    }
+
+    
+    #reload-button {
+      font-family: 'Fredoka', sans-serif;
+      background-color: #4B0082;
+      color: white;
+      border: none;
+      border-radius: 10px;
+       padding: 10px 20px;
+      font-size: 18px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+      
+       margin-left: 200px;
+        display: block;
+
+
+    }
+#start-button{
+     font-family: 'Fredoka', sans-serif;
+    margin-left: 20px;
+    background-color: #4B0082;
+    color: white;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: transform 0.2s ease, background-color 0.3s ease;
+     font-size: 18px;
+     padding: 10px 20px;
+}
+#submitButton{
+     font-family: 'Fredoka', sans-serif;
+    margin-left: 40px;
+    background-color: #4B0082;
+    color: white;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: transform 0.2s ease, background-color 0.3s ease;
+     font-size: 18px;
+     padding: 10px 20px;
+}
+
+    #start-button:hover,
+    #submitButton:hover,
+    #reload-button:hover {
+      background-color: #6A0DAD;
+      transform: scale(1.05);
+    }
+
+    #guess-input {
+      padding: 10px;
+      border: 2px solid #4B0082;
+      border-radius: 8px;
+      font-size: 18px;
+      outline: none;
+    }
+
+    .status {
+      font-size: 18px;
+      color: #333;
+    }
+
+    #word-container {
+      margin: 15px 0;
+    }
+
+    .letter {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin: 4px;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 22px;
+      background-color: #e6dbfa;
+      color: #4B0082;
+      border: 2px solid #c2a3f5;
+    }
+
+    .correct {
+      background-color: #48c774;
+      color: white;
+      animation: pop 0.2s ease-in-out;
+    }
+
+    .exists {
+      background-color: #ffdd57;
+      color: #4B0082;
+      animation: pop 0.2s ease-in-out;
+    }
+
+    .wrong {
+      background-color: #ff3860;
+      color: white;
+      animation: pop 0.2s ease-in-out;
+    }
+
+    .result-message {
+      font-size: 20px;
+      color: #4B0082;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    #history-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }

@@ -19,5 +19,5 @@ The game was created as a fun web development project to practice DOM manipulati
 
 ## 🌐 Live Demo
 
-▶️ [Play it here](https://your-username.github.io/WordleGame/)  
+▶️ [Play it here](https://your-khushicomp.github.io/WordleGame/)  
 (Replace with your actual GitHub Pages link)

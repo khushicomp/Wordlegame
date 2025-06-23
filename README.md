@@ -20,5 +20,5 @@ The game was created as a fun web development project to practice DOM manipulati
 ## 🌐 Live Demo
 
 
-▶️ [Play it here](https://your-khushicomp.github.io/Wordlegame/)  
+▶️ [Play it here](https://khushicomp.github.io/Wordlegame/)  
 (Replace with your actual GitHub Pages link)
